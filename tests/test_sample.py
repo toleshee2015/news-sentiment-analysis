@@ -1,2 +1,4 @@
-def test_example():
-    assert 1 + 1 == 2
+from sentiment import predict_sentiment
+
+def test_positive_text():
+    assert predict_sentiment("I love this product") == "positive"
