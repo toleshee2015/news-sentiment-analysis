@@ -1,3 +1,4 @@
+from src.sentiment import predict_sentiment
 def predict_sentiment(text):
     text = text.lower()
 
